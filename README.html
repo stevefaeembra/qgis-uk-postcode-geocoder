@@ -6,4 +6,14 @@ It will work on any editable layer - but note, the layer needs to be in edit mod
 
 Not all data providers support "AddAttribute" - shapefile and PostGres layer do, GeoJSON and Delimited text don't, for example.
 
-To keep the data size down, the postcode databases have been encoded into a compact binary format. The /utilities directory has tools to show you how to (re)generate the postcode databases.
+To keep the data size down, the postcode databases have been encoded into a compact binary format. 
+The /utils directory has tools to show you how to (re)generate the postcode databases from the csv downloads.
+
+There are two databases - the OS Open CodePoint and ONS postcode data. 
+
+The OS version contains 1.6 Million postcodes, all of which are current. 
+
+The ONS data set is larger - 2.5 Million - as it includes non-geographics postcodes and 'retired' postcodes.
+
+OS Open CodePoint - Contains Ordnance Survey data, Crown Copyright and Database Rights 2015
+ONS Postcode Database - Contains National Statistic data, Crown Copyright and Database right 2014
