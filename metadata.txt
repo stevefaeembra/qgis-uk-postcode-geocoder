@@ -9,7 +9,7 @@
 [general]
 name=Geocode UK Postcodes
 qgisMinimumVersion=2.0
-description=An offline geocoder for UK Postcodes
+description=An Offline Geocoder for UK Postcodes
 version=0.1
 author=Steven Kay
 email=stevendkay@gmail.com
@@ -22,11 +22,11 @@ email=stevendkay@gmail.com
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=uk postcode geocoder
+tags=UK,British,Postcode,Geocode,Geocoder
 
-homepage=~
-tracker=~
-repository=~
+homepage=https://github.com/stevefaeembra/qgis-uk-postcode-geocoder.git
+tracker=https://github.com/stevefaeembra/qgis-uk-postcode-geocoder/issues
+repository=https://github.com/stevefaeembra/qgis-uk-postcode-geocoder.git
 category=Vector
 icon=icon.png
 # experimental flag
